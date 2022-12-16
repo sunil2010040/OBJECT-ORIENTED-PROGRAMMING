@@ -1,0 +1,18 @@
+#includeiostream
+using namespace std;
+
+class dept{                        //declaring class
+    public                         //to declare public else it is by default private
+    string deptname;
+    int deptno;
+    bool deptno_update;
+};
+
+int main()
+{
+    dept a;			   //declaring object
+    a.deptname=IT;
+    a.deptno=1;
+    a.deptno_update=0;
+    return 0;
+}
