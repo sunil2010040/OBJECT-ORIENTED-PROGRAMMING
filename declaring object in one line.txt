@@ -1,0 +1,33 @@
+#include<iostream>
+using namespace std;
+
+class dept
+{
+    string deptname;
+    public: 
+    int deptno;
+    bool deptno_update;
+    
+    dept(string a, int s, int g)
+    {
+        deptname=a;
+        deptno=s;
+        deptno_update=g;
+    }
+};
+
+int main()
+{
+    dept a("IT",1,0);
+    a.printinfo();
+    
+    return 0;
+}
+
+
+OUTPUT:
+
+deptname:IT
+deptno:1
+deptno_update:0
+
